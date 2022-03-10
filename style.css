@@ -5,10 +5,10 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: black;
+    background-color:black;
 }
 #game-board{
-    background-color: crimson;
+    background-color: whitesmoke;
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -16,10 +16,10 @@ body{
     grid-template-columns: repeat(30, 1fr);
 }
 .snake{
-    background-color: lightskyblue;
+    background-color:dodgerblue;
     border: .25vmin solid black;
 }
 .food{
-    background-color: yellow;
+    background-color: crimson;
     border: .25vmin solid black;
 }
